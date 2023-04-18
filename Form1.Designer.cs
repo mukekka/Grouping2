@@ -117,7 +117,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(585, 107);
+            this.button1.Location = new System.Drawing.Point(577, 107);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 44);
             this.button1.TabIndex = 7;
@@ -184,7 +184,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(501, 135);
+            this.label5.Location = new System.Drawing.Point(491, 136);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(80, 18);
             this.label5.TabIndex = 14;
@@ -231,11 +231,11 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(703, 107);
+            this.button7.Location = new System.Drawing.Point(694, 107);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(85, 44);
+            this.button7.Size = new System.Drawing.Size(103, 44);
             this.button7.TabIndex = 19;
-            this.button7.Text = "输出为文本";
+            this.button7.Text = "输出文本";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
