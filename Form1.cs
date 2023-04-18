@@ -279,13 +279,17 @@ namespace WindowsFormsApp1
                 {
                     listBox3.Items.Add(s);
                 }
-                string doyu = "剩余的座号：";
-                for (int i = ptr; i < rfuu.Length; i++)//
+
+                if (ptr < rfuu.Length)
                 {
-                    doyu += rfuu[i].ToString() + ",";
+                    string doyu = "剩余的座号：";
+                    for (int i = ptr; i < rfuu.Length; i++)//
+                    {
+                        doyu += rfuu[i].ToString() + ",";
+                    }
+                    doyu = doyu.Substring(0, doyu.Length - 1);
+                    listBox3.Items.Add(doyu);
                 }
-                doyu = doyu.Substring(0, doyu.Length - 1);
-                listBox3.Items.Add(doyu);
             }
         }
 
