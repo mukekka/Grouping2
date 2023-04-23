@@ -315,5 +315,11 @@ namespace WindowsFormsApp1
                 MessageBox.Show("无内容");
             }
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form2 f = new Form2();
+            f.ShowDialog();
+        }
     }
 }
